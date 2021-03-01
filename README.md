@@ -1,15 +1,15 @@
 # Title
 QBO Invoice Scheduler
 
-#Description
+# Description
 As part of QBO services we allow a paying user
 to schedule his invoice payments in order to pay his debt on time.
 
-#Technologies
+# Technologies
 This system is a REST API using maven and Java Spring Boot.
 The Database engine is MySQL.
 
-#Launch
+# Launch
 In order to run the system:
 Open Terminal.
 navigate to the project folder.
@@ -18,7 +18,7 @@ exec command "mvn spring-boot:run" to run.
 
 When running locally the url is "http://localhost:8080/qbo-scheduler-app"
 
-#REST API
+# REST API
 Create User:
 POST /users
 Request fields: firstName,lastName,email.
